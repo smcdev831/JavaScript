@@ -1,4 +1,4 @@
-let js = "amazing";
+/* let js = "amazing";
 console.log(40 + 8 + 23 - 10);
 
 console.log("Jonas");
@@ -23,4 +23,4 @@ let myCurrentJob = "Teacher";
 let job1 = "programmer";
 let job2 = "teacher";
 
-console.log(myFirstJob);
+console.log(myFirstJob);*/
