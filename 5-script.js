@@ -44,7 +44,7 @@ year = 1991;
 console.log(typeof year);
 
 console.log(typeof null);
-*/
+
 
 let age = 30;
 age = 31;
@@ -56,3 +56,7 @@ const birthYear = 1991;
 
 var job = "Programmer";
 job = "Teacher"
+*/
+
+const ageJonas = 2037 - 1991;
+console.log(ageJonas);
