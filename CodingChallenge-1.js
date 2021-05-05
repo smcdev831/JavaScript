@@ -15,13 +15,29 @@ m tall.
 m tall.
 GOOD LUCK */
 
-let markInfom = 78;
+/* let markInfom = 78;
 let markInfoh = 1.69;
 
 let markBMI=(markInfom / (markInfoh * markInfoh));
 
 let johnInfom = 92;
 let johnInfoh = 1.95;
+
+let johnBMI=(johnInfom / (johnInfoh * johnInfoh));
+
+markHigherBMI = markBMI > johnBMI;
+
+console.log(markBMI);
+console.log(johnBMI);
+console.log(markHigherBMI); */
+
+let markInfom = 95;
+let markInfoh = 1.88;
+
+let markBMI=(markInfom / (markInfoh * markInfoh));
+
+let johnInfom = 85;
+let johnInfoh = 1.76;
 
 let johnBMI=(johnInfom / (johnInfoh * johnInfoh));
 
