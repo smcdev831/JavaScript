@@ -90,3 +90,18 @@ console.log(ageJonas > ageSarah);
 let firstName = "Jonas";
 let job = "teacher";
 const birthYear = 1991;
+let year = 2037;
+
+let jonas = "I'm " + firstName + " a " + (year - birthYear) + " year old " + job + ".";
+console.log(jonas);
+
+let jonasNew = `I'm ${firstName}, a ${year-birthYear} year old ${job}.`;
+console.log(jonasNew);
+
+console.log(`just a regular string`);
+
+console.log(`String with \n\ multiple \n\ lines`);
+
+console.log(`string
+  multiple
+  lines`);
