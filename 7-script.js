@@ -104,4 +104,24 @@ console.log(`String with \n\ multiple \n\ lines`);
 console.log(`string
   multiple
   lines`);
-  */
+
+let age = 15;
+
+if(age >= 18) {
+  console.log("You are old enough to drive 👌");
+} else {
+  let yearsLeft = 18 - age;
+  console.log(`You are too young. Wait another ${yearsLeft} years. :)`);
+}
+*/
+
+let birthYear = 1991;
+let century = 21;
+
+if(birthYear <= 2000) {
+  century = 20;
+} else {
+  century = 21;
+}
+
+console.log(century);
