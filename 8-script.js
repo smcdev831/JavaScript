@@ -138,3 +138,7 @@ console.log(String(23), 23);
 console.log(`I am ` + 23 +  ` year's old`);
 
 console.log('23' - 10 - 3);
+
+let n = '1' + 1;
+n = n + 1;
+console.log(n);
