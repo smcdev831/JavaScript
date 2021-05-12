@@ -53,7 +53,7 @@ let johnInfoh = 1.76;
 let johnBMI=(johnInfom / (johnInfoh * johnInfoh));
 
 if(johnBMI > markBMI) {
-  console.log(`John's BMI is higher than Mark's`);
+  console.log(`John's BMI ${johnBMI} is higher than Mark's ${markBMI}`);
 } else {
-  console.log(`Mark's BMI is higher than John's`);
+  console.log(`Mark's BMI ${markBMI} is higher than John's ${johnBMI}`);
 }
