@@ -141,7 +141,6 @@ console.log('23' - 10 - 3);
 let n = '1' + 1;
 n = n + 1;
 console.log(n);
-*/
 
 console.log(Boolean(0));
 console.log(Boolean(undefined));
@@ -163,3 +162,9 @@ if(height) {
 } else {
   console.log(`Height is undefined`);
 }
+
+*/
+
+let age = 18
+
+console.log();
