@@ -166,5 +166,4 @@ if(height) {
 */
 
 let age = 18
-
-console.log();
+if(age === 18) console.log(`You just became an adult!`);
