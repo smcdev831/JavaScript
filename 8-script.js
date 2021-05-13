@@ -165,5 +165,11 @@ if(height) {
 
 */
 
-let age = 18
-if(age === 18) console.log(`You just became an adult!`);
+let age = `18`
+if(age === 18) console.log(`You just became an adult! (strict)`);
+if(age == 18) console.log(`You just became an adult! (loose)`);
+
+18 === 18 //true
+18 === 19 //false
+`18` == 18 //true
+`18` === 18 //false
