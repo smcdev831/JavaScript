@@ -179,6 +179,8 @@ console.log(typeof favorite);
 
 if(favorite === 831) {
   console.log(`831 is an amazing number`);
+} else if(favorite === 23) {
+  console.log(`23 is also cool`);
 } else {
   console.log(`That number is ok.`);
-}
+};
