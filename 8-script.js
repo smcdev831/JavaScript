@@ -163,8 +163,6 @@ if(height) {
   console.log(`Height is undefined`);
 }
 
-*/
-
 let age = `18`
 if(age === 18) console.log(`You just became an adult! (strict)`);
 if(age == 18) console.log(`You just became an adult! (loose)`);
@@ -173,3 +171,14 @@ if(age == 18) console.log(`You just became an adult! (loose)`);
 18 === 19 //false
 `18` == 18 //true
 `18` === 18 //false
+*/
+
+let favorite = Number(prompt("What's your favorite number?"))
+console.log(favorite);
+console.log(typeof favorite);
+
+if(favorite === 831) {
+  console.log(`831 is an amazing number`);
+} else {
+  console.log(`That number is ok.`);
+}
