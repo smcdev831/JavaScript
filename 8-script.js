@@ -183,4 +183,32 @@ if(favorite === 831) {
 } else {
   console.log(`That number is ok.`);
 };
+
+let hasDriversLicense = true;
+let hasGoodVision = true;
+
+console.log(hasDriversLicense && hasGoodVision);
+console.log(hasDriversLicense || hasGoodVision);
+console.log(!hasDriversLicense);
+
+let shouldDrive = hasDriversLicense && hasGoodVision
+
+if(hasDriversLicense && hasGoodVision) {
+  console.log(`You can drive!`);
+} else {
+  console.log(`Let someone else drive.`);
+}
+
+let isTire = false;
+console.log(hasDriversLicense && hasGoodVision || isTired);
 */
+
+let hasDriversLicense = true;
+let hasGoodVision = true;
+let isTired = true;
+
+if(hasDriversLicense && hasGoodVision && !isTired) {
+  console.log(`You can drive!`);
+} else {
+  console.log(`Let someone else drive.`);
+}
