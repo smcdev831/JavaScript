@@ -171,7 +171,6 @@ if(age == 18) console.log(`You just became an adult! (loose)`);
 18 === 19 //false
 `18` == 18 //true
 `18` === 18 //false
-*/
 
 let favorite = Number(prompt("What's your favorite number?"))
 console.log(favorite);
@@ -184,3 +183,4 @@ if(favorite === 831) {
 } else {
   console.log(`That number is ok.`);
 };
+*/
