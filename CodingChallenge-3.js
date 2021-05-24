@@ -17,3 +17,14 @@ Test data:
 § Data 1: Dolphins score 96, 108 and 89. Koalas score 88, 91 and 110
 § Data Bonus 1: Dolphins score 97, 112 and 101. Koalas score 109, 95 and 123
 § Data Bonus 2: Dolphins score 97, 112 and 101. Koalas score 109, 95 and 106 */
+
+let dR1 = 96;
+let dR2 = 108;
+let dR3 = 89;
+
+let kR1 = 88;
+let kR2 = 91;
+let kR3 = 110;
+
+let dAvg = (dR1 + dR2 + dR3)/3;
+console.log(dAvg);
