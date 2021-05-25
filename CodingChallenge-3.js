@@ -28,3 +28,12 @@ let kR3 = 110;
 
 let dAvg = (dR1 + dR2 + dR3)/3;
 console.log(dAvg);
+
+let kAvg = (kR1 + kR2 + kR3)/3;
+console.log(kAvg);
+
+if(kAvg > dAvg) {
+  console.log('Koalas Win!');
+} else {
+  console.log('Dolphins Win!');
+}
