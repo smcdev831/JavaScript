@@ -37,3 +37,11 @@ if(kAvg > dAvg) {
 } else {
   console.log('Dolphins Win!');
 }
+
+if(kAvg == dAvg) {
+  console.log(`It's a tie!!`);
+} else if (kAvg > dAvg) {
+  console.log(`Koalas Win!!`);
+} else {
+  console.log(`Dolphins Win!!`);
+}
