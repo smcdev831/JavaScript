@@ -18,13 +18,13 @@ Test data:
 § Data Bonus 1: Dolphins score 97, 112 and 101. Koalas score 109, 95 and 123
 § Data Bonus 2: Dolphins score 97, 112 and 101. Koalas score 109, 95 and 106 */
 
-let dR1 = 96;
-let dR2 = 108;
-let dR3 = 89;
+let dR1 = 97;
+let dR2 = 112;
+let dR3 = 101;
 
-let kR1 = 88;
-let kR2 = 91;
-let kR3 = 110;
+let kR1 = 109;
+let kR2 = 95;
+let kR3 = 106;
 
 let dAvg = (dR1 + dR2 + dR3)/3;
 console.log(dAvg);
@@ -34,8 +34,10 @@ console.log(kAvg);
 
 if(kAvg > dAvg) {
   console.log('Koalas Win!');
-} else {
+} else if (dAvg > kAvg){
   console.log('Dolphins Win!');
+} else {
+  console.log(`It's a tie!`);
 }
 
 if(kAvg == dAvg) {
