@@ -45,3 +45,14 @@ if(kAvg == dAvg) {
 } else {
   console.log(`Dolphins Win!!`);
 }
+
+
+if(kAvg == dAvg && kAvg > 100 && dAvg > 100) {
+  console.log(`It's a tie!!!`);
+} else if (kAvg > dAvg && kAvg > 100) {
+  console.log(`Koalas Win!!!`);
+} else if (dAvg > kAvg && dAvg > 100){
+  console.log(`Dolphins Win!!!`);
+} else {
+  console.log(`No one scored enough points :( !!!`);
+}
